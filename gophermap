@@ -1,0 +1,13 @@
+
+Sample Gophermap File
+#####################
+
+0license	/LICENSE
+0important documentation	README.md
+0gofor source	gofor.py
+1Samples	samples
+1My Gopherhole	/	yam655.com	70
+hMy Website	/URL:https://yam655.com/
+0bogus gofor source	/../gofor/gofor.py
+1Relative link to my Gopherhole (/j/2018-07: works)	j/2019-07	yam655.com	70
+

@@ -1,0 +1,18 @@
+
+Sample Gophermap File
+#####################
+
+0relative file (works)	valid.txt
+0absolute file (works)	/samples/valid.txt
+0in another directory (works)	/README.md
+0symlinked in doc root (works)	README.md
+1Relative link to my Gopherhole (/j/2018-07 works)	j/2019-07	yam655.com	70
+
+0parent directory (only if not chrooted)	../gofor.py
+0parent then directory (only if not chrooted)	../samples/valid.txt
+0directory then parent (only if not chrooted)	/samples/../samples/valid.txt
+
+0symlinked outside doc root: absolute (fails)	/samples/the-root/etc/passwd
+0symlinked outside doc root: relative (fails)	the-root/etc/passwd
+0file with wrong permissions	/invalid.txt
+
